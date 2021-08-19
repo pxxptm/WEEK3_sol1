@@ -4,7 +4,7 @@ using namespace std;
 
 int mul(int n)
 {
-    int c=0,num[3]={},b;
+    int c=0,num[3]={};
     while(n>0)
     {
         num[2-c]=n%10;
